@@ -15,7 +15,8 @@
     --second-bg-color: #323946;
     --text-color: #fff;
     --main-color: #0098d2;
-    --animation-color : #e62021;
+    --animation-color : #f82d34;
+    --mon-color: #333333;
 }
 
 /* Donner une taille des ecritures à la page de html  */
@@ -27,5 +28,29 @@ html {
 
 body {
     background: var(--bg-color);
+    color: var(--text-color);
+}
+
+/* Pour le header  */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--mon-color);
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: default;
+}
+.logo img {
     color: var(--text-color);
 }
