@@ -18,4 +18,14 @@
     --animation-color : #e62021;
 }
 
-bor
+/* Donner une taille des ecritures à la page de html  */
+html {
+    font-size: 62.5%;
+    overflow: hidden;
+}
+/* Donner une couleur de fond et des ecritures à la page de body  */
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
